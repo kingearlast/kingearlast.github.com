@@ -19,7 +19,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "posts"
       title: "Empty Title"
       author: "Yanggwi"
   -
