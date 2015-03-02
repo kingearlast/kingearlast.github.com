@@ -12,3 +12,19 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      title: "Empty Title"
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project" # 앞의 default 레이아웃을 덮어씁니다
+      author: "Mr. Hyde"
