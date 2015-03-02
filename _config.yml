@@ -21,6 +21,7 @@ defaults:
     values:
       layout: "post"
       title: "Empty Title"
+      author: "Yanggwi"
   -
     scope:
       path: "projects"
