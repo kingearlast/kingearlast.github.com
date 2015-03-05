@@ -1,5 +1,9 @@
-Post 내용 
-우키키
+---
+layout: post
+title:  "[Drafts] Syntax Reference"
+---
+
+## 코드 강조
 
 {% highlight javascript %}
 
@@ -9,3 +13,7 @@ var fn = function() {
 }
 
 {% endhighlight %}
+
+## 이미지 / 자원 삽입
+
+![친절한 스크린샷](/assets/test.jpeg)
