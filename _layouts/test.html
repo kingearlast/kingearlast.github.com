@@ -13,6 +13,12 @@ layout: default
         </p>
     </header>
 
+    <ul>
+        {% for member in site.data.test-data %}
+        <li>{{ member.name }} : {{ member.age }}</li>
+        {% endfor %}
+    </ul>
+
     <article class="post-content">
         <h2>{{page.testValue}}</h2>
         {{ content }}

@@ -1,5 +1,5 @@
 # Site settings
-title: Your awesome title
+title: Yang Gwi`Blog
 email: yanggwi.kim@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -12,6 +12,8 @@ github_username:  kingearlast
 
 # Build settings
 markdown: kramdown
+
+paginate: 1
 
 defaults:
   -
